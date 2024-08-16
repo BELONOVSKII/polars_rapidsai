@@ -1,6 +1,6 @@
 data/
 images/
 .ipynb_checkpoints
-*.ipynb
+#*.ipynb
 .DS_Store
 *.lock

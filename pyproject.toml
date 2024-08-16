@@ -13,8 +13,9 @@ jupyter = "^1.0.0"
 faker = "^27.0.0"
 tqdm = "^4.66.5"
 joblib = "^1.4.2"
-black = "^24.8.0"
+black = {extras = ["jupyter"], version = "^24.8.0"}
 isort = "^5.13.2"
+psutil = "^6.0.0"
 
 
 [build-system]
